@@ -83,5 +83,5 @@ Metrics can be skipped by passing in an additional configuration property `skipL
 
 ## License
 
-**artillery-plugin-statsd** is distributed under the terms of the
+**artillery-plugin-telegraf** is distributed under the terms of the
 [ISC](http://en.wikipedia.org/wiki/ISC_license) license.
