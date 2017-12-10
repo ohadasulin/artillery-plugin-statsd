@@ -1,6 +1,6 @@
 {
   "name": "artillery-plugin-telegraf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Telegraf-influx output plugin for Artillery",
   "main": "index.js",
   "scripts": {

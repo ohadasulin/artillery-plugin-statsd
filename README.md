@@ -27,7 +27,8 @@ Enable the plugin by adding it in your test script's `config.plugins` section:
         "port": 8125,
         "prefix": "artillery",
         "tags" : { // -> This is the important change from the standard artillery-plugin-statsd.
-                   //    You can tag your metrics with any tag you want easier grouping and monitoring.
+                   //    You can tag your metrics with any tag you like for easier grouping and monitoring.
+                   //    This feature exists only in Telegraf and not in the standard statsd protocol
             "testId": "myTestId"
         }
       }
@@ -40,6 +41,8 @@ Enable the plugin by adding it in your test script's `config.plugins` section:
 `host`, `port`, and `prefix` are optional; the values above are the defaults.
 
 `tags` is optional - used to tag metrics if [Telegraf](https://github.com/influxdata/telegraf) reports to [InfluxDB](https://www.influxdata.com/).
+
+Tags are not supported by standard StatsD protocol, only by Telegraf. For more details see [here](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/statsd#influx-statsd)
 
 ### Published metrics
 
