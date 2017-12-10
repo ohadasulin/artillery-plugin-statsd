@@ -1,5 +1,7 @@
 # Telegraf output for Artillery stats
 
+Forked from [artillery-plugin-statsd](https://github.com/shoreditch-ops/artillery-plugin-statsd)
+
 This [Artillery](https://artillery.io/) plugin allows you to publish the
 stats produced by Artillery CLI to [Telegraf](https://github.com/influxdata/telegraf)'s StatsD input plugin in real-time.
 
