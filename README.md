@@ -26,8 +26,8 @@ Enable the plugin by adding it in your test script's `config.plugins` section:
         "host": "localhost",
         "port": 8125,
         "prefix": "artillery",
-        "tags" : {
-            "testName": "myTestName",
+        "tags" : { // -> This is the important change from the standard artillery-plugin-statsd.
+                   //    You can tag your metrics with any tag you want easier grouping and monitoring.
             "testId": "myTestId"
         }
       }
