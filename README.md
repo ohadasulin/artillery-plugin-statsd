@@ -22,7 +22,7 @@ Enable the plugin by adding it in your test script's `config.plugins` section:
   "config": {
     // ...
     "plugins": {
-      "statsd": {
+      "telegraf": {
         "host": "localhost",
         "port": 8125,
         "prefix": "artillery",
