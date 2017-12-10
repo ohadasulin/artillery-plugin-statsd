@@ -1,19 +1,16 @@
 {
-  "name": "artillery-plugin-statsd",
-  "version": "2.2.0",
-  "description": "Statsd output plugin for Artillery",
+  "name": "artillery-plugin-telegraf",
+  "version": "1.0.0",
+  "description": "Telegraf-influx output plugin for Artillery",
   "main": "index.js",
   "scripts": {
     "test": "node test/index.js | tap-spec"
   },
   "keywords": [
-    "statsd",
+    "telegraf",
     "artillery"
   ],
-  "author": "Hassy Veldstra <h@veldstra.org>",
-  "contributors": [
-    "Anthony DiPirro (https://github.com/adipirro)"
-  ],
+  "author": "Ohad Asulin (https://github.com/ohadasulin)",
   "license": "ISC",
   "dependencies": {
     "debug": "2.2.0",
