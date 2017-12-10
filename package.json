@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node test/index.js | tap-spec"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ohadasulin/artillery-plugin-telegraf.git"
+  },
   "keywords": [
     "telegraf",
     "artillery"
